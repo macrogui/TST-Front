@@ -1,0 +1,11 @@
+{
+  
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1195dd",
+    "navigationBarTitleText": "羽毛球选课",
+    "navigationBarTextStyle": "white",
+    
+  "usingComponents": {
+  
+  }
+}

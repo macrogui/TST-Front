@@ -1,0 +1,18 @@
+
+.picker{
+    padding: 13px;
+    background-color: #FFFFFF;
+}
+.left{
+  width: 40%
+}
+.checkbox{
+    display: block;
+    margin-bottom: 10px;
+     background-color: #FFFFFF;
+      padding: 13px;
+}
+.all_title{
+  font-size: 25px;
+  text-align:center;
+}

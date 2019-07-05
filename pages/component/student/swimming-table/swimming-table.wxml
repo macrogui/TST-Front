@@ -1,0 +1,30 @@
+
+<view class="section section_gap">
+  <view class="section__title">1.您想选择的游泳教练是：</view>
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <view class="picker">
+      当前选择：{{array[index]}}
+    </view>
+  </picker>
+</view>
+<view class="section section_gap">
+  <view class="section__title">2.您想选择的时间是：</view>
+  <picker bindchange="bindPickerChange" value="{{index1}}" range="{{array1}}">
+    <view class="picker">
+      当前选择：{{array1[index1]}}
+    </view>
+  </picker>
+</view>
+<view class="section__title">3.您想选择的时间是：</view>
+<view class="page__bd">
+  <view class="section section_gap">
+    <checkbox-group bindchange="checkboxChange">
+      <label class="checkbox" wx:for-items="{{items}}">
+        <checkbox value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}
+      </label>
+    </checkbox-group>
+  </view>
+</view>
+<button type="warn" bindtap="warn"> 提交 </button>
+
+<button bindtap="switch">aaa</button>
