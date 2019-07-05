@@ -8,23 +8,9 @@
   font-size: 15px;
   background-color: fbf9fe;
 }
-
-.section__title1{
-  text-align: center;
-  margin-bottom: 20px;
-  margin: 0 auto;
-  width: 100px;
+page{
+  height: 250px;
 }
-.background{
-  position: absolute;
-  overflow: scroll;
-  margin-left: -105px;
-  margin-top: -5px;
-  width: 30%;
-  height: 5%;
-  z-index: -1;
-}
-
 swiper{
   height: 220px;
 }
@@ -33,18 +19,13 @@ swiper-item{
   height: 259px ;
   margin-top: -35px;
 }
+.section tc{
+  height:350px;
+  width: 100px;
+}
+myVideo{
+  height: 50%;
+  
+}
 
 
-.section{
-  height: 100px;
-}
-.flex-wrp{
-    height: 100px;
-    margin-top: 20px;
-    display:flex;
-    background-color: #FFFFFF;
-}
-.flex-item{
-    width: 100px;
-    height: 100px;
-}

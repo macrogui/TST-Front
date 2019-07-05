@@ -1,0 +1,55 @@
+<!--pages/component/student/payment-page.wxml-->
+<view class="body">
+<view class="aa">
+<view class="son">
+<text>学生姓名：</text>
+<text>{{s_name}}</text>
+</view>
+</view>
+<view class="bb">
+<view class="son">
+<text>项目名：</text>
+<text>{{p_name}}</text>
+</view>
+</view>
+<view class="aa">
+<view class="son">
+<text>教练：</text>
+<text>{{coach}}</text>
+</view>
+</view>
+<view class="bb">
+<view class="son">
+<text>次数：</text>
+<text>{{s_times}}</text>
+</view>
+</view>
+<view class="aa">
+<view class="son">
+<text>时间：</text>
+<text>{{s_time}}</text>
+</view>
+</view>
+<view class="bb">
+<view class="son">
+<text>课程人数：</text>
+<text>{{c_number}}</text>
+</view>
+</view>
+<view class="aa">
+<view class="son">
+<text>上课地点：</text>
+<text>{{c_place}}</text>
+</view>
+</view>
+<view class="bb">
+<view class="son">
+<text>需缴费：</text>
+<text>{{s_price}}</text>
+</view>
+</view>
+<view class="button">
+<button type="default" name="1" bindtap="tapEvent">去支付</button>
+</view>
+
+</view>

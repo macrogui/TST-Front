@@ -14,8 +14,8 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.7.3",
-	"appid": "wx67a89bd21e1e7d38",
-	"projectname": "TST-Front",
+	"appid": "wx8913fd602347a367",
+	"projectname": "tst_demo",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},

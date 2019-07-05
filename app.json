@@ -1,22 +1,47 @@
 {
   "pages": [
-    "pages/component/student/project-page",
+    "pages/component/student/first-page/first-page",
+    "pages/component/student/home-page/home-page",
+    "pages/component/student/project-page/project-page",
+    "pages/component/student/myinformation-page/myinformation-page",
+    "pages/component/student/myclass-page/myclass-page",
+    "pages/component/student/record-page/record-page",
     "pages/component/student/badminton-table/badminton-table",
-    "pages/index/index",
-    "pages/logs/logs",
     "pages/component/student/basketball-table/basketball-table",
-    "pages/component/student/table-tennis-table/table-tennis-table",
-    "pages/component/student/swimming-table/swimming-table",
+    "pages/component/student/exam-table/exam-table",
     "pages/component/student/physical-fitness-table/physical-fitness-table",
-    "pages/component/student/exam-table/exam-table"
+    "pages/component/student/swimming-table/swimming-table",
+    "pages/index/index",
+    "pages/logs/logs"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#1195dd",
+    "navigationBarBackgroundColor": "#1195db",
     "navigationBarTitleText": "晨九体育联盟",
     "navigationBarTextStyle": "white"
-    
   },
-  
-  "sitemapLocation": "sitemap.json"
+  "tabBar": {
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/component/student/home-page/home-page",
+        "text": "首页",
+        "iconPath": "/images/tabbar/badmintonwhite.png",
+        "selectedIconPath": "/images/tabbar/badmintongreen.png"
+      },
+      {
+        "pagePath": "pages/component/student/project-page/project-page",
+        "text": "选课",
+        "iconPath": "/images/tabbar/basketballwhite.png",
+        "selectedIconPath": "/images/tabbar/basketballgreen.png"
+      },
+      {
+        "pagePath": "pages/component/student/myinformation-page/myinformation-page",
+        "text": "我的",
+        "iconPath": "/images/tabbar/tabletenniswhite.png",
+        "selectedIconPath": "/images/tabbar/tabletennisgreen.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap64.json"
 }
