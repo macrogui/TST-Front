@@ -1,15 +1,17 @@
-// pages/component/student/myinformation-page.js
+// pages/component/student/baseinformation-page.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-       studentname:"钟月",
-       times: 5
-  },
-  onLoad: function () {
-    console.log('onLoad')
+    s_name:"",
+    s_sex:"",
+    s_age: "",
+    s_number: "",
+    s_place: "",
+    s_school: "",
+    s_hobby: ""
   },
 
   /**

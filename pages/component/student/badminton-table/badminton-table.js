@@ -104,5 +104,5 @@ Page({
   },
   submit: function (e) {
     console.log(texts)
-  }
+  },
 })

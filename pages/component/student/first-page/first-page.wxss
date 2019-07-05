@@ -1,12 +1,13 @@
 .all {
   padding: 20px;
-  height: 100%;
+  height: 80%;
 }
 
 .head {
-  height: 100px;
+  height: 60px;
   text-align: center;
   border: 1px black solid;
+  background-color:paleturquoise;
 }
 
 .left {
@@ -20,11 +21,12 @@
   height: 100%;
   float: left;
   text-align: center;
-  color: blue;
-}
+  color:black;
+
+ }
 
 .body {
-  background: rgb(244, 244, 244);
+  background:lightcyan;
   margin-top: 20px;
   padding: 0px;
   padding-top: 20px;
@@ -43,6 +45,7 @@
 text {
   font-size: 1.2rem;
   line-height: 100px;
+  text-align:center;
 }
 
 .section {

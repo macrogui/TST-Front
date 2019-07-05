@@ -1,15 +1,13 @@
-// pages/component/student/myinformation-page.js
+// pages/component/student/pinformation-page.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-       studentname:"钟月",
-       times: 5
-  },
-  onLoad: function () {
-    console.log('onLoad')
+     phonenum:13812569854,
+     name1:"钟元",
+     name2:"钟月"
   },
 
   /**

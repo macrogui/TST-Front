@@ -12,14 +12,12 @@
 .s_class{
   text-align: center;
   margin-top: 30px;
-   font-size: 17px;
+   font-size: 20px;
 }
 .number{
   font-size: 30px;
 }
-.xinxi{
-  padding-top: 30px;
-}
+
 .kebiao{
   padding-top: 30px;
 }
@@ -27,6 +25,11 @@
   padding-top: 30px;
 }
 
+.add{
+  width: 25%;
+  margin-top: 30px;
+  padding-left: 65%;
+}
 
 .widget{
     position: relative;
@@ -35,7 +38,13 @@
     padding-left: 20px;
     padding-right: 20px;
 }
-
+.widget__arrow{
+    position: absolute;
+    top: 14px;
+    right: 22px;
+    width: 8px;
+    height: 16px;
+}
 .widget__line{
     content: " ";
     position: absolute;

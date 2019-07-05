@@ -4,6 +4,7 @@
     "pages/component/student/home-page/home-page",
     "pages/component/student/project-page/project-page",
     "pages/component/student/myinformation-page/myinformation-page",
+    "pages/component/student/pinformation-page/pinformation-page",
     "pages/component/student/myclass-page/myclass-page",
     "pages/component/student/record-page/record-page",
     "pages/component/student/badminton-table/badminton-table",

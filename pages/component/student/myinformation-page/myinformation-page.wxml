@@ -17,10 +17,16 @@
 <text>  次</text>
 </view>
 
+<view class="xinxi">
+<navigator url="/pages/component/student/baseinformation-page/baseinformation-page" class="widget">
+                        <text class="widget__name">基本信息</text>
+                        <view class="widget__line"></view>
+                    </navigator>
+</view>
+
 <view class="kebiao">
 <navigator url="/pages/component/student/myclass-page/myclass-page" class="widget">
                         <text class="widget__name">我的课表</text>
-                        <image class="widget__arrow" src="resources/arrow.png" background-size="cover" />
                         <view class="widget__line"></view>
                     </navigator>
 </view>
@@ -28,7 +34,6 @@
 <view class="jilu">
 <navigator url="/pages/component/student/record-page/record-page" class="widget">
                         <text class="widget__name">我的上课记录</text>
-                        <image class="widget__arrow" src="resources/arrow.png" background-size="cover" />
                         <view class="widget__line"></view>
                     </navigator>
 </view>            

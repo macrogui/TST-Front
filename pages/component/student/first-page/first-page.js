@@ -92,17 +92,17 @@ Page({
     }
     s = s.substr(0,s.length-1)
     console.log(this.data)
-    // wx:wx.request({
-    //   url: 'http://localhost:8080/tst_demo/insertstudent.jsp',
-    //   data: {
-    //     'StudentName': this.data.name,
-    //     'Age': this.data.age,
-    //     'Sex': sex_value,
-    //     'StudentIDNumber': this.data.cardid,
-    //     'Date': this.data.date,
-    //     'SchoolName': this.data.school
-    //   }
-    // })
+    wx:wx.request({
+      url: 'http://localhost:8080/tst_demo/insertstudent.jsp',
+      data: {
+        'StudentName': this.data.name,
+        'Age': this.data.age,
+        'Sex': sex_value,
+        'StudentIDNumber': this.data.cardid,
+        'Date': this.data.date,
+        'SchoolName': this.data.school
+      }
+    })
 
     wx.switchTab({
       url: '/pages/component/student/home-page/home-page',
