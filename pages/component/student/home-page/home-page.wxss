@@ -1,0 +1,50 @@
+/* page/component/student/homepage.wxss */
+.section__title{
+  text-align: center;
+  width: 350PX;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  background-color: fbf9fe;
+}
+
+.section__title1{
+  text-align: center;
+  margin-bottom: 20px;
+  margin: 0 auto;
+  width: 100px;
+}
+.background{
+  position: absolute;
+  overflow: scroll;
+  margin-left: -105px;
+  margin-top: -5px;
+  width: 30%;
+  height: 5%;
+  z-index: -1;
+}
+
+swiper{
+  height: 220px;
+}
+swiper-item{
+  text-align: center;
+  height: 259px ;
+  margin-top: -35px;
+}
+
+
+.section{
+  height: 100px;
+}
+.flex-wrp{
+    height: 100px;
+    margin-top: 20px;
+    display:flex;
+    background-color: #FFFFFF;
+}
+.flex-item{
+    width: 100px;
+    height: 100px;
+}

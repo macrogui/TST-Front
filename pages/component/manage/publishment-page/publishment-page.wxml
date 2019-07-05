@@ -1,0 +1,6 @@
+<view class="section">
+  <form bindsubmit="bindFormSubmit">
+    <textarea placeholder="请在此输入要发布的信息："  maxlength="300" name="textarea"/> 
+  </form>   
+</view>
+<button form-type="submit"> 提交 </button> 

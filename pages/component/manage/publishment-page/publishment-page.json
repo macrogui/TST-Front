@@ -1,0 +1,16 @@
+{
+
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "信息发布",
+
+  
+  "navigationBarBackgroundColor": "#1195dd",
+  "backgroundColor": "#fbf9fe",
+
+  "usingComponents": {
+
+  }
+  
+   
+  
+}

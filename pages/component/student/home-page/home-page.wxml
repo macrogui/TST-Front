@@ -1,0 +1,27 @@
+<view class="section__title">下次上课时间是：XX-XX (星期X) XX:XX-XX:XX</view>
+
+<swiper indicator-dots="true" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+     <image src="{{item}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class="section__title1" >晨九体育联盟<image class="background" src="/image/title.jpg"></image></view>
+ <view class="section">
+            <view class="flex-wrp" style="flex-direction:row;justify-content: space-around;">
+                <view class="flex-item bc_green">个性化服务</view>
+                <view class="flex-item bc_red">国家级健将亲身教学</view>
+                <view class="flex-item bc_blue">小班化教学</view>
+            </view>
+ </view>
+
+<view class="section__title1">打游戏吗</view>
+ <view class="section">
+            <view class="flex-wrp" style="flex-direction:row;justify-content: space-around;">
+                <view class="flex-item bc_green">你带飞</view>
+                <view class="flex-item bc_red">我躺</view>
+                <view class="flex-item bc_blue">打不赢就骂你</view>
+            </view>
+ </view>
