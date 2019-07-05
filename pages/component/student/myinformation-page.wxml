@@ -1,0 +1,41 @@
+<!--pages/component/student/myinformation-page.wxml-->
+<view class="page__hd">
+        <text class="page__title">我的信息\n</text>
+    </view>
+
+
+<view class="page_body">
+
+<view class="s_name">
+<text>学员姓名：</text>
+<text>{{studentname}}\n</text>
+</view>
+
+<view class="s_class">
+<text>总上课  </text>
+<text class="number">{{times}}</text>
+<text>  次</text>
+</view>
+
+<view class="xinxi">
+<navigator url="page/component/student/baseinformation-page" class="widget">
+                        <text class="widget__name">基本信息</text>
+                        <view class="widget__line"></view>
+                    </navigator>
+</view>
+
+<view class="kebiao">
+<navigator url="page/component/student/myclass-page" class="widget">
+                        <text class="widget__name">我的课表</text>
+                        <view class="widget__line"></view>
+                    </navigator>
+</view>
+
+<view class="jilu">
+<navigator url="page/component/student/record-page" class="widget">
+                        <text class="widget__name">我的上课记录</text>
+                        <view class="widget__line"></view>
+                    </navigator>
+</view>            
+
+</view>
