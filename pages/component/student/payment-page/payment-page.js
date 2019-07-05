@@ -1,18 +1,10 @@
-// pages/component/student/payment-page.js
+// pages/component/student/payment-page/payment-page.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    s_name:"",
-    p_name:"",
-    coach:"",
-    s_times:"",
-    s_time:"",
-    c_number:"",
-    c_place:"",
-    s_price:""
 
   },
 

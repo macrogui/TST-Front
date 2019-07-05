@@ -1,13 +1,1 @@
-
-<view class="section__title">下次上课时间是：XX-XX (星期X) XX:XX-XX:XX</view>
-
-<swiper indicator-dots="true"
-  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true">
-  <block wx:for="{{imgUrls}}">
-    <swiper-item>
-     <view class="section tc">
-  <video id="myVideo"  show-fullscreen-btn show-play-btn="center" auto-pause-if-navigate auto-pause-if-open-native vslide-gesture-in-fullscreen show-center-play-btn enable-progress-gesture src="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
- </view>
-    </swiper-item>
-  </block>
-</swiper>
+shouye

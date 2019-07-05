@@ -11,7 +11,11 @@
     "pages/component/student/exam-table/exam-table",
     "pages/component/student/physical-fitness-table/physical-fitness-table",
     "pages/component/student/swimming-table/swimming-table",
-    "pages/index/index",
+    "pages/component/student/table-tennis-table/table-tennis-table",
+    "pages/component/manage/check-page/check-page",
+    "pages/component/manage/publishment-page/publishment-page",
+    "pages/component/manage/trainclass-page/trainclass-page",
+    "pages/component/student/payment-page/payment-page",
     "pages/logs/logs"
   ],
   "window": {
