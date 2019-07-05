@@ -1,0 +1,28 @@
+/* pages/component/manage/check-page.wxss */
+.b{
+   margin-top: 30px;
+  padding-left: 30px;
+}
+.a{
+  padding-left: 30px;
+  padding-top: 30px;
+}
+.c{
+  padding-left: 30px;
+  padding-top: 20px;
+}
+.checkbox{
+    display: block;
+    margin-bottom: 10px;
+}
+.line{
+margin-top: 15px;
+width: 90%;
+height: 3rpx;
+background-color: skyblue;
+}
+.button{
+  width: 25%;
+  margin-top: 10px;
+  padding-left: 65%;
+}

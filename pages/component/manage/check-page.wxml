@@ -1,0 +1,39 @@
+<!--pages/component/manage/check-page.wxml-->
+<view class="m_body">
+
+<view class="b">
+<text>项目名称：</text>
+<text>{{m_project}}</text>
+<view class='line'></view>
+</view>
+
+<view class="a">
+<text>应到上课人数：</text>
+<text>{{snum}}</text>
+<view class='line'></view>
+</view>
+
+<view class="a">
+实到上课人数：
+<input type="number" value="" name="number" placeholder="请在这里输入" class="r_num" placeholder-class='{{place}}' value='{{name}}' bindinput='formName'/>
+<view class='line'></view>
+</view>
+
+<view class="a">
+<text>实到学生姓名：</text>
+</view>
+<view class="c">
+<view class="section section_gap">
+            <checkbox-group bindchange="checkboxChange">
+                <label class="checkbox" wx:for-items="{{items}}">
+                    <checkbox value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+                </label>
+            </checkbox-group>
+        </view>
+  <view class='line'></view>
+</view>
+
+<view class="button">
+<button type="default" name="1" bindtap="tapEvent">完成</button>
+</view>
+</view>
