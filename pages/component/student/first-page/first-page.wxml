@@ -1,0 +1,54 @@
+<!--pages/components/first-page/first-page.wxml-->
+<view class='all'>
+  <view class='head'>
+    <view class='left'>
+    </view>
+    <view class='right'>
+      <text>晨九体育联盟</text>
+    </view>
+  </view>
+  <view class='body'>
+    <view class='content'>
+      <view class='write'>学生信息</view>
+      <view class="section">
+        <view class='title'>姓名：</view>
+        <input id='name' name="input" bindinput='input' placeholder="请在此处输入" />
+      </view>
+      <view class="section">
+        <view class='title'>性别:</view>
+        <radio-group bindchange="listenRadioGroup">
+          <label class="radio" wx:for="{{sex}}">
+            <radio name='sex' value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}
+          </label>
+        </radio-group>
+      </view>
+      <view class="section">
+        <view class='title'>年龄:</view>
+        <input id='age' name="input" bindinput='input' placeholder="请在此处输入" />
+      </view>
+      <view class="section">
+        <view class='title'>身份证号:</view>
+        <input id='cardid' name="input" bindinput='input' type='idcard' placeholder="请在此处输入" />
+      </view>
+      <view class="section" style="display:block">
+        <view class='title'>生日：</view>
+        <picker mode="date" value="{{date}}" start="1980-09-01" end="2015-09-01" bindchange="bindDateChange">
+          <view>{{date}}</view>
+        </picker>
+      </view>
+      <view class="section">
+        <view class='title'>兴趣爱好:</view>
+        <input id='hobby' name="input" bindinput='input' placeholder="请在此处输入" />
+      </view>
+      <view class="section">
+        <view class='title'>就读学校:</view>
+        <input id='school' name="input" bindinput='input' placeholder="请在此处输入" />
+      </view>
+       <view class="section">
+        <view class='title'>家庭住址:</view>
+        <input id='hobby' name="input" bindinput='input' placeholder="请在此处输入" />
+      </view>
+      <button type="default" bindtap='registe'> 添加 </button>
+    </view>
+  </view>
+</view>
